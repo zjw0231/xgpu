@@ -89,3 +89,5 @@ echo "---------------------------"
 sudo nohup ./xengpuminer -d7 > xengpuminer-7.log 2>&1 &
 sleep 5
 echo "---------------------------"
+
+tail -f /root/XENGPUMiner/miner.log
